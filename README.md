@@ -1,9 +1,9 @@
 #  Bridging the Technological Gap Workshop - 2nd Edition
-Spreading technological innovations in the study of cognition and behavior of human and non-human primates
+Spreading technological innovations in the study of cognition and behavior of human and non-human primates <br>
 4th August 2024 → 10th August 2024 at the MPI EVA
 
-[Pierre-Etienne Martin](https://www.eva.mpg.de/comparative-cultural-psychology/staff/pierre-etienne-martin/), PhD, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
-[Laura Lewis](), PhD, University of California, Berkeley, CA, USA
+[Pierre-Etienne Martin](https://www.eva.mpg.de/comparative-cultural-psychology/staff/pierre-etienne-martin/), PhD, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany <br>
+[Laura Lewis](), PhD, University of California, Berkeley, CA, USA <br>
 [Hanna Schleihauf](), PhD, Utrecht University, Netherlands
 
 ## Introduction
