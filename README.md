@@ -12,7 +12,7 @@ Spreading technological innovations in the study of cognition and behavior of hu
 
 Technological breakthroughs create immense opportunities to revolutionize scientific methodologies and enable answers to questions that were previously unanswerable. Disciplines studying behavior and cognition across species are struggling to keep up with the rapid technological developments. In 2022, we organized a workshop to help bridge this technological gap. Through the workshop we (a) trained 31 early career researchers in the use of cutting-edge non-invasive technologies including motion-tracking, eye-tracking, thermal imagining, and machine learning extensions, (b) developed guidelines and common standards in the use of these methods, and (c) created an online platform with a diverse network of researchers, and (d) initiated an interdisciplinary collaboration project with most of the workshop participants involved using thermal imaging with many different species. Building on the success of the 2022 event, we plan to organize this workshop again. Our goal is to continue providing opportunities for early career researchers to gain expertise in innovative technologies, build connections between interdisciplinary and international scholars, and foster the exchange of ideas and future collaborations.
 
-## Hands-on sessions
+## Hands-on
 
 ### Installation
 
@@ -25,4 +25,55 @@ Anaconda is a virtual environment manager. Follow the installation steps from [h
 
 #### VSCode
 
-VSCode is a code editor with many features and extensions. Follow the installation steps from [here](https://code.visualstudio.com/Download) according to your system. 
+VSCode is a code editor with many features and extensions. Follow the installation steps from [here](https://code.visualstudio.com/Download) according to your system.
+
+### Sessions
+
+#### Part I - Introduction and COMPUTATIONAL BASICS
+
+##### Monday, August 5, 2024 – Into and Building foundations: Let’s R & git
+
+|     |     |     |
+| --- | --- | --- |
+| 11:30 – 12:30 | Bret Beheim | **Hands-on**  <br>“Let’s Git” - Intro to Git and GitHub |
+| 12:30 – 13:30 | **Lunch Break** |     |
+| 13:30 – 15:00 | Luke Maurits | **Hands-on**  <br>Intro to R and R studio |
+| 15:00 – 15:30 | **Coffee Break** |     |
+| 15:30 – 17:00 | Pierre-Etienne Martin | **Hands-on**  <br>Intro to Python |
+
+#### Part II - Training in the use of new technologies to study the human and non-human animal mind
+
+##### Wednesday, August 7, 2024 – Gaze Tracking & Pupillometry
+
+|     |     |     |
+| --- | --- | --- |
+| 10:30 – 12:30 | Tomasso Ghilardi, Franceso Poli & Guilia Serino | **Hands-on**  <br>Eye Tracking with Python |
+| 12:30 – 13:30 | **Lunch Break** |     |
+| 13:30 – 15:00 | Tomasso Ghilardi, Franceso Poli & Guilia Serino | **Hands-on**  <br>Eye Tracking with Python |
+| 15:00 – 15:30 | **Coffee Break** |     |
+| 15:30 – 17:00 | Tomasso Ghilardi, Franceso Poli & Guilia Serino | **Hands-on**  <br>Eye Tracking with Python |
+| 19:00 – 21:00 | **Dinner with Speakers OR City Tour** |     |
+
+##### Thursday, August 8, 2024 – Thermal Imaging
+
+|     |     |     |
+| --- | --- | --- |
+| 15:30 – 17:00 | Pierre-Etienne Martin | **Keynote + Hands-on**  <br>Bio-TIP: Bio-Signal Retrieval from Thermal Imaging Processing |
+
+##### Friday, August 9, 2024 – Motion Tracking
+
+|     |     |     |
+| --- | --- | --- |
+| 10:00 – 11:00 | Raphaelle Malassis & Rayanne Martin | **Hands-on**  <br>Beyond response times: Tracking apes’ hand trajectory on a touchscreen |
+| 11:00 – 11:30 | **Coffee Break** |     |
+| 11:30 – 12:30 | Tim-Joshua Andres & Arja Mentink | **Keynote**  <br>Motion-Tracking |
+| 12:30 – 13:30 | **Lunch Break** |     |
+| 13:30 – 15:00 | Tim-Joshua Andres & Arja Mentink | **Hands-on**  <br>Motion-Tracking |
+| 15:00 – 15:30 | **Coffee Break** |     |
+| 15:30 – 17:00 | Charlotte Ann Wiltshire | **Hands-on**  <br>DeepWild: application of the pose estimation tool DeepLabCut for behaviour tracking in wild chimpanzees and bonobos |
+
+## Sponsors
+
+We would like to thank the Joachim Herz Foundation who made the organization of this workshop possible with their financial support.
+
+![JHS_Logo_sRGB_violett-white_extern.png  ](./attachments/csm_JHS_Logo_sRGB_violett-white_extern_488c57bbe9.png)
