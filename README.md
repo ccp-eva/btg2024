@@ -1,4 +1,4 @@
-#  Bridging the Technological Gap Workshop - 2nd Edition
+# Bridging the Technological Gap Workshop - 2nd Edition
 Spreading technological innovations in the study of cognition and behavior of human and non-human primates <br>
 4th August 2024 → 10th August 2024 at the MPI EVA
 
