@@ -27,6 +27,29 @@ Anaconda is a virtual environment manager. Follow the installation steps from [h
 
 VSCode is a code editor with many features and extensions. Follow the installation steps from [here](https://code.visualstudio.com/Download) according to your system.
 
+After installation, start VSCode and navigate to the extensions tab: <br>
+![VSCode extensions](attachments/extensions.png)<br>
+and install the extensions named:<br>
+1. Python
+
+#### Try your installation
+
+1. Start VSCode
+2. Open a VSCode terminal
+3. Create a conda environment called **btg** and install numpy, opencv and matplotlib
+``` bash
+conda create -n btg python=3.10
+conda activate btg
+conda install numpy
+conda install -c conda-forge opencv matplotlib
+```
+4. Select conda virtual env **btg** as “Python interpreter”
+(F1 with search function or ctrl + shift + p)
+
+##### Troubleshooting
+
+1. If conda is not recognized, try following (these instructions)[https://stackoverflow.com/questions/64170551/visual-studio-code-vsc-not-able-to-recognize-conda-command] or contact your IT support.
+
 ### Sessions
 
 #### Part I - Introduction and COMPUTATIONAL BASICS
@@ -76,4 +99,4 @@ VSCode is a code editor with many features and extensions. Follow the installati
 
 We would like to thank the Joachim Herz Foundation who made the organization of this workshop possible with their financial support.
 
-![JHS_Logo_sRGB_violett-white_extern.png  ](./attachments/csm_JHS_Logo_sRGB_violett-white_extern_488c57bbe9.png)
+![Logo Joachim Hez Foundation](./attachments/csm_JHS_Logo_sRGB_violett-white_extern_488c57bbe9.png)
