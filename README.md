@@ -21,11 +21,11 @@ We advise using a 64-bit computer with GPU and CUDA drivers.
 
 #### Anaconda
 
-Anaconda is a virtual environment manager. Follow the installation steps from [here](https://www.anaconda.com/download/success) according to your system.
+Anaconda is a virtual environment manager. Follow the installation steps from [here](https://www.anaconda.com/download/success) according to your system. We advise installation for the user only (not as admin of for the whole system).
 
-#### VSCode
+#### VSCode and Python extension
 
-VSCode is a code editor with many features and extensions. Follow the installation steps from [here](https://code.visualstudio.com/Download) according to your system.
+VSCode is a code editor with many features and extensions. Follow the installation steps from [here](https://code.visualstudio.com/Download) according to your system. You may install via Anaconda Navigator.
 
 After installation, start VSCode and navigate to the extensions tab: <br>
 ![VSCode extensions](attachments/extensions.png)<br>
@@ -43,12 +43,37 @@ conda activate btg
 conda install numpy
 conda install -c conda-forge opencv matplotlib
 ```
-4. Select conda virtual env **btg** as “Python interpreter”
-(F1 with search function or ctrl + shift + p)
+4. Select conda virtual env **btg** as "Python interpreter" (F1 with search function or ctrl + shift + p)
 
-##### Troubleshooting
+#### Troubleshooting
 
-1. If conda is not recognized, try following (these instructions)[https://stackoverflow.com/questions/64170551/visual-studio-code-vsc-not-able-to-recognize-conda-command] or contact your IT support.
+1. Conda not recognized in your terminal:
+
+    This may happen according to the way things were installed. You can either:
+
+    - reinstall VSCode using Anaconda Navigator and do the previous steps again
+
+    - OR use the Anaconda Prompt and enter:
+
+        ``` bash
+        conda create -n btg python=3.10
+        conda activate btg
+        conda install numpy
+        conda install -c conda-forge opencv matplotlib
+        ```
+        For Windows:
+        ``` bash
+        where python
+        ```
+        For MacOS and Linux:
+        ``` bash
+        which python
+        ```
+    Then, in VSCode, select "Select interpreter path..." in "Python interpreter" (F1 with search function or ctrl + shift + p) enter enter the path given by your previous command `where python` or `which python` from the Anaconda Prompt.
+
+    - OR alternativly, try following [these instructions](https://stackoverflow.com/questions/64170551/visual-studio-code-vsc-not-able-to-recognize-conda-command)
+    
+    - OR contact your IT support.
 
 ### Sessions
 
