@@ -28,5 +28,5 @@
 ## 2. the function should read the image, and
 ## 3. if the image is square: display the image
 ## 4. if not: display along the longest dimension a squared version of the image. (slowly or at the user convenience, and )
-## 5. call the function in main.py with earth_temperature_timeline.png.
+## 5. call the function in main.py with btg_2022.png and earth_temperature_timeline.png.
 ## If it freezes, try using ctrl + c (preferred) or ctrl + z to stop the execution.
