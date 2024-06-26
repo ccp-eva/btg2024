@@ -42,6 +42,7 @@ conda create -n btg python=3.10
 conda activate btg
 conda install numpy
 conda install -c conda-forge opencv matplotlib
+conda install anaconda::natsort
 ```
 4. Select conda virtual env **btg** as "Python interpreter" (F1 with search function or ctrl + shift + p)
 
