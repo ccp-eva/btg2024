@@ -17,7 +17,7 @@ Technological breakthroughs create immense opportunities to revolutionize scient
 ### Installation
 
 Please install Anaconda and VSCode in advance.
-We advise using a 64-bit computer with GPU and CUDA drivers.
+We advise using a 64-bit computer with GPU, CUDA drivers and 100Gb of free hard disk space.
 
 #### Anaconda
 
@@ -32,6 +32,7 @@ After installation, start VSCode and navigate to the extensions tab: <br>
 and install the extensions named:<br>
 1. Python
 2. Encryptor
+3. vscode-numpy-viewer
 
 #### Try your installation
 
@@ -41,9 +42,7 @@ and install the extensions named:<br>
 ``` bash
 conda create -n btg python=3.10
 conda activate btg
-conda install numpy
-conda install -c conda-forge opencv matplotlib
-conda install anaconda::natsort
+conda install -c conda-forge opencv matplotlib numpy natsort
 ```
 4. Select conda virtual env **btg** as "Python interpreter" (F1 with search function or ctrl + shift + p)
 

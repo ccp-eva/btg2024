@@ -1,2 +1,4 @@
 **/__pycache__/
-Bio-TIP/data/
+Bio-TIP/**/
+!Bio-TIP/data/
+Bio-TIP/data/*.zip
