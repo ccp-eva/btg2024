@@ -31,6 +31,7 @@ After installation, start VSCode and navigate to the extensions tab: <br>
 ![VSCode extensions](attachments/extensions.png)<br>
 and install the extensions named:<br>
 1. Python
+2. Encryptor
 
 #### Try your installation
 
