@@ -13,8 +13,10 @@ def ti_to_image(sourceframe, minValue=20, maxValue=40):
 
 def main():
     # Load data
-    ti_zip_file = "data.zip"
-    save_folder = "data_npy"
+    ti_zip_file = os.path.join("data","1-example.zip")
+    save_folder = os.path.join("data_npy",os.path.basename(ti_zip_file).split('.')[0])
+    # Create save folder if it does not exist
+    os.makedirs(save_folder, exist_ok=True)
     np_files = ti_extraction(ti_zip_file, save_folder)
 
     ## TODO:

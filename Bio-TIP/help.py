@@ -1,1 +1,124 @@
-ff04807870acb763937892cff68f7246280dace80c46c94aedcd92663521e9b926815854bda3c0399526bb0d7eae06fedc4c2051a8fa80d0d0575d7aa99066a1de94264ce503406eee5493d8e2aac3adbe13c6e677f156c79540a4a75d879eab0b06dbb1ddeb5f444fc2c2614667f8473a246fd3c652c638c850869dad3b2dbc3b0b7684002705f6ec94f1e33e159d6a0bf60cf7449d8a952d553086e8a6a9f3d7f0e068afe8041809ba5638a776dedd8cf330db70c8aa65b2a6c382880f9d242cbcf288ba943c50302f873a7c5566160525f64d3dd801805b1d030eb595f8bda6f63281202302ede61144e85cd002bd931c6f76babd51a869c426382f27ba959e239726ea53298a41419138bec612f7a18fbcbade3febb24f2d630eb0d5ccc9505d5efe9a42be3c1df50b79cc69a7f76c6854527739327fc079745eea6af14a890469e84462546c6caa5e2c8d819e1bf3a9ea3c6764a65b720c4c46b7fad435a907a26fe1f2871d36c25b67b7f129e11ac16aee0e3c14c526a4963f14d0fdbd710c809c1200eaeae09310ef3ea9f4b19d4a7659f576dadaf4db2864fafd9819028734fc74951e5a088a2d75520f8ed28f00e2ac16a4e68d94478574f21f2111d203fc3779a752c451b1c3fd38e33026cd3f0eb8c2dab8be6bb6b5afd56fe1faad74f185b81cd9f990a919822ab1677a818d43730763b6e853e45ff1c39b85f774616ffcaa6189faa35680174138ecd7610909a2e81174f69225f8721477eb75027d4a41e51beb7a002ce02204276c077865d63b08dfc1cafbf3b10434b6ec93a47f8433ad0a63b603b85c7fe906bb96e45bb329ca5a1c74cd06b754f429f3db12a1648921cdddd6e68e56bbe5b78d42349f82ffe2a6d007638e4482ee67f1d0a0ec2ebd174a00ca70bd4509e20af12c6520c28271e33727c0aa2cf382223b0d4194d9be4e9c1a6ff12325f07c617a92530282a5670722b6060942de6b19630af80c8738a7255c8359c94627e871a2d8987a8f4ec53482af55263ae5a3373dd6eac4f574e81442a763c6bc30a0b2f2ec09feb446c7e170461b4e03685a311ab510cc777f7332ad450c9123b287060d0b28c0a9dbcc019d8ccafc0009ac0246ed2e9e97e1e1b63b5adfe44ca8b02e5b58c268ad9e37fe165fe8da7e6a2391ed0eb40c846b3b4415781d38fe18dd680549b760118ffbe2d97d8902b53d264be98780a72f7362fd09a8fc7dd019f5886a75c525c3517f39dcdc12314a4db6eed7687de723ca68123818a19d06ca81c502f8509083cdf31186fc770f089d0c9c1750ae79a7d65ed846da43a17cf335646a3a84b85e0d601212b5e42bd5c323c33e6eaaadcdd9aa33cf5f281d18025a837e2e08f3a49efee162c1920d95b8879296ff1d8bdb56dc228311a6d6e05e5ac91b8074db99b4c73830bd628c65bf96cb0919c5b327ed7ce62b1e7a04fed50b88f8e2cd543de7217b587e9e68971524542967aabf2b25c7bfbc4126d5f2211d97a32421bcdf34855e8aff6b6ad9b2eabc0f07c356010f8de363123f1d23b1f26dfe55c2226f5d5527b3b212f876036bfa4966ad0b5ce6ff87cb2b1bf25b80ff149eafb01bd4baebbe8ce2f9f522a0f99e1faa427056a5e540eddadff77b551545a0a6f2ec723aee42a2d79ce8fd9e92a2ba15faf86fc32d02fca9b47ad118430d27946669f5d6dd767cf6e4a5b522a834d1800dcb760bb6371bcd491a87e785ec8891f514694efbb74984afe0b17ecf00ee70e5a76aad52e4f98131dee9b95c7b9e535f7dc14f740fb0c30f5d674a64c894c70b87cb1654308efc37bbc7d191c6af0014b657340c2c2c22184669ce47adf46cd632609132def8467f05280dfb425caed5993cd052d29809e14e3901fca826ec28780f4052d49a248b30b5a9bf31c7f3c382c49b5c747bc060bba9bee0006e19f15fe3790fa0dd7c8430ca4a1f0cae311ac604a146cc47ea69908dbb02f299d01d4d89ae4a87a367028618dda6642ce429f53cea351b40990febf9a0a5762291d6f3610d984fcba8fb107d4b9f9f0928535668dab3514f7d09df86fb9baf3626c577fb6402d09075a6eb65798c2c422c3a165fb8771a6c98fca8e05322c1428c2c50bca4754a10186c6fff769b5bb9d70cedf70638fdad5c93db6ea65e67161a
+from utils import *
+
+def ti_to_image(sourceframe, minValue=25, maxValue=38):
+    """
+    Apply thermal calibration to a frame and scale the values between 0 and 255 uint8 type for image processing.
+    The inverse option allows invertion of the scale.
+    """
+    # Apply calibration
+    outputframe = (sourceframe - minValue)/(maxValue - minValue)
+    # Scale to 0-255
+    outputframe = outputframe*255
+    # Clip values
+    outputframe[outputframe < 0] = 0
+    outputframe[outputframe > 255] = 255
+    # Convert to uint8
+    outputframe = np.array(outputframe, dtype='uint8')
+    outputframe = cv2.applyColorMap(outputframe, cv2.COLORMAP_JET)
+    colormap_with_legend = generate_colormap_with_legend(minValue, maxValue, width=outputframe.shape[1]//15, height=outputframe.shape[0], fontsize=15)
+    return np.concatenate((outputframe, colormap_with_legend), axis=1)
+
+def main():
+    # Load data
+    ti_zip_file = os.path.join("data","1-example.zip")
+    fps = 30
+    save_folder = os.path.join("data_npy",os.path.basename(ti_zip_file).split('.')[0])
+    # Create save folder if it does not exist
+    os.makedirs(save_folder, exist_ok=True)
+    np_files = ti_extraction(ti_zip_file, save_folder)
+
+    ## TODO:
+    ## Loop over the np_files and convert each to an image using np.load and ti_to_image functions
+    ## Display the image using cv2.imshow
+    ## Select a ROI using cv2.selectROI
+    ## Track the min temperature in the ROI using np.min
+    ## Plot the min temperatures using matplotlib
+    ## Calculate the frequency from the min temperatures
+    ## Plot the temperature with peaks and the frequency
+    ## Improve the frequency calculation using a Gaussian filter and plot the results
+
+    # Variable to store min temperatures
+    min_temps = []
+
+    # Loop over the np_files
+    for idx, np_file in enumerate(np_files):
+        # Load thermal image
+        ti_image = np.load(np_file)
+
+        # Convert to image
+        ti_vis = ti_to_image(ti_image)
+        
+        # First loop we select a ROI
+        if idx == 0:
+            roi = cv2.selectROI('Thermal Image', ti_vis)
+            cv2.destroyAllWindows()
+            print('ROI selected: ', roi)
+        
+        # Draw ROI
+        cv2.rectangle(ti_vis, (roi[0], roi[1]), (roi[0]+roi[2], roi[1]+roi[3]), (255,255,255), 2)
+
+        # Track min temperature in ROI
+        min_temps.append(np.min(ti_image[roi[1]:roi[1]+roi[3], roi[0]:roi[0]+roi[2]]))
+
+        # Display image with ROI using correct frame rate
+        # if idx > 0:
+        #     if time.time() - show_time < 1/fps:
+        #         time.sleep(1/fps - (time.time() - show_time))
+        # show_time = time.time()
+        cv2.imshow('Thermal Image', ti_vis)
+        cv2.waitKey(10)
+
+        # Print progress
+        if idx+1 % 100 == 0:
+            print('Progress: ', idx+1, '/', len(np_files))
+    
+    # Close all windows
+    cv2.destroyAllWindows()
+
+    # # Convert min_temps to numpy array
+    # min_temps = np.array(min_temps)
+
+    # # Plot min temperatures
+    # plt.plot(min_temps)
+    # plt.xlabel('Frame')
+    # plt.ylabel('Min Temperature')
+    # plt.title('Min Temperature in ROI')
+    # plt.show()
+    # plt.close()
+
+    # Apply a Gaussian filter to the min temperatures
+    min_temps_gauss = gaussian_filter(min_temps, sigma=fps/3)
+    
+    # Calculate the frequency from the min temperatures
+    bpm, peaks = get_bpm_from_peaks(min_temps_gauss, fps=30, freq_min=5, freq_max=60, height=0)
+
+    # Create subplots
+    # First subplot is temperature before gaussian filtering
+    fig, axs = plt.subplots(3)
+    axs[0].plot(min_temps)
+    axs[0].set_xlabel('Frame')
+    axs[0].set_ylabel('Min Temperature')
+    axs[0].set_title('Min Temperature in ROI')
+
+    # Second subplot is temperature after gaussian filtering with peaks
+    axs[1].plot(min_temps_gauss)
+    axs[1].plot(peaks, min_temps_gauss[peaks], "x")
+    axs[1].set_xlabel('Frame')
+    axs[1].set_ylabel('Min Temperature')
+    axs[1].set_title('Min Temperature in ROI (Gaussian Filtered)')
+
+    # Third subplot is the frequency
+    axs[2].plot(bpm)
+    axs[2].set_xlabel('Frame')
+    axs[2].set_ylabel('BPM')
+    axs[2].set_title('Breath Rate')
+
+    # Tight layout
+    plt.tight_layout()
+
+    plt.show()
+    plt.close()
+
+
+if __name__ == "__main__":
+    main()

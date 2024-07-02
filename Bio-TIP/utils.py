@@ -5,8 +5,26 @@ import os
 import time
 import cv2
 from matplotlib import pyplot as plt
+from scipy.signal import find_peaks
+from scipy.ndimage.filters import gaussian_filter
+import pdb
 
 print('utils.py loaded')
+
+def get_bpm_from_peaks(signal, fps=30, freq_min=40, freq_max=240, height=0):
+    bpm_array = freq_min*np.ones(len(signal))
+    min_distance = int(60/freq_max*fps)
+    peaks, _ = find_peaks(signal, distance=min_distance, height=height)
+    if len(peaks)>0:
+        freq_values = fps/(peaks[1:] - peaks[:-1])*60
+        peaks_copy = np.copy(peaks)
+        peaks_copy[0] = 0
+        peaks_copy[-1] = len(signal)
+        for idx, freq_value in enumerate(freq_values):
+            start = peaks_copy[idx]
+            end = peaks_copy[idx+1]
+            bpm_array[start:end] = max(freq_value, freq_min)
+    return bpm_array, peaks
 
 def ti_extraction(zip_file, save_folder):
     '''
