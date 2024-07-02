@@ -6,8 +6,12 @@ Thermal images allows us to capture thermale temperature over time, thus, change
 
 ## Data
 During the Workshop, you will have the oppotunirty to acquire your own data. For this purpose, you will first have to sign an informed consent (link soon active) for the acquisition with stimulus and the re-distribtuion of the data.
+
 If you do not wish to have your own data recorded, you are free to use the 1-example.zip file.
-All data is available on this repository (link soon active). Because each recording is very heavy (~1Gb for 30s recording), download only your own recording or the example recording.
+
+All data is available on this [time limited password protected repository](https://share.eva.mpg.de/index.php/s/gRRHDB6jGSHTytd) (password will be shared during the workshop and the repository will no-longer be accessible after the workshop).
+
+Because each recording is very heavy (~1Gb for 30s recording), download only your own recording or the example recording.
 
 ![Data example and processing](btg.gif)
 

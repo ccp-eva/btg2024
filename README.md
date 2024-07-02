@@ -59,8 +59,7 @@ conda install -c conda-forge opencv matplotlib numpy natsort scipy
         ``` bash
         conda create -n btg python=3.10
         conda activate btg
-        conda install numpy
-        conda install -c conda-forge opencv matplotlib
+        conda install -c conda-forge opencv matplotlib numpy natsort scipy
         ```
         For Windows:
         ``` bash
