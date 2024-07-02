@@ -25,8 +25,8 @@
 
 ## create a file utils.py and then:
 ## 1. write a function in utils called display_squarred_image, taking as input an image path.
-## 2. the function should read the image, and
+## 2. the function should read the image,
 ## 3. if the image is square: display the image
-## 4. if not: display along the longest dimension a squared version of the image. (slowly or at the user convenience, and )
+## 4. if not: display along the longest dimension a squared version of the image. (slowly or at the user convenience)
 ## 5. call the function in main.py with btg_2022.png and earth_temperature_timeline.png.
 ## If it freezes, try using ctrl + c (preferred) or ctrl + z to stop the execution.
