@@ -1,5 +1,10 @@
+# Hidden files and folders
+**/.*
+# Python cache
 **/__pycache__/
+# Folders in Bio-TIP
 Bio-TIP/**/
+# Except the data folder
 !Bio-TIP/data/
+# Except the zip files in the data folder
 Bio-TIP/data/*.zip
-.vscode/

@@ -125,4 +125,4 @@ conda install -c conda-forge opencv matplotlib numpy natsort scipy
 
 We would like to thank the Joachim Herz Foundation who made the organization of this workshop possible with their financial support.
 
-![Logo Joachim Hez Foundation](./attachments/csm_JHS_Logo_sRGB_violett-white_extern_488c57bbe9.png)
+![Logo Joachim Hez Foundation](./attachments/JHS_Logo.png)
