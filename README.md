@@ -45,7 +45,7 @@ conda activate btg
 conda install -c conda-forge opencv matplotlib numpy natsort scipy
 ```
 4. Select conda virtual env **btg** as "Python interpreter" (F1 with search function or ctrl + shift + p)
-5. Open the BridgeTheGap.py, run it in VSCode (Menu: Run -> Start Debugging or press F5) and follow the instructions showing in the terminal
+5. In VSCODE: open the BridgeTheGap.py, run it in (Menu: Run -> Start Debugging or press F5) and follow the instructions showing in the terminal
 
 #### Troubleshooting in case your installation failed
 
