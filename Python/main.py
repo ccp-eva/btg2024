@@ -24,6 +24,7 @@
 ## loops and conditions
 
 ## create a file utils.py and then:
+## 0. In Run and Debug, create a launch.json file and add the following configuration: "cwd": "${fileDirname}",
 ## 1. write a function in utils called display_squarred_image, taking as input an image path.
 ## 2. the function should read the image,
 ## 3. if the image is square: display the image
