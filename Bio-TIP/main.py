@@ -20,9 +20,15 @@ def main():
     np_files = ti_extraction(ti_zip_file, save_folder)
 
     ## TODO:
-    ## Loop over the np_files and convert each to an image
-    ## using the ti_to_image function
-    ## Display the image using matplotlib
+    ## 1. Loop over the np_files
+    ## 2. Convert each numpy file (temperature) to an image using ti_to_image function (to fill)
+    ## 3. Display the image using matplotlib
+    ## 4. Select a ROI using cv2.selectROI
+    ## 5. Track the min temperature in the ROI using np.min
+    ## 6. Plot the min temperatures using matplotlib
+    ## 7. Calculate the frequency from the min temperatures using the function get_bpm_from_peaks
+    ## 8. Plot the temperature with peaks and the frequency
+    ## 9. Improve the frequency calculation using a Gaussian filter and plot the results
 
 
 if __name__ == "__main__":
