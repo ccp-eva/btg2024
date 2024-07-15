@@ -16,7 +16,7 @@ Technological breakthroughs create immense opportunities to revolutionize scient
 
 ### Installation
 
-Please install Anaconda and VSCode in advance.
+Please install Anaconda, VSCode and DeepLabCut in advance.
 We advise using a 64-bit computer with GPU, CUDA drivers and 100Gb of free hard disk space.
 
 #### Anaconda
@@ -47,6 +47,10 @@ conda install -c conda-forge opencv matplotlib numpy natsort scipy
 4. Select conda virtual env **btg** as "Python interpreter" (F1 with search function or ctrl + shift + p)
 5. In VSCODE: open the BridgeTheGap.py, run it in (Menu: Run -> Start Debugging or press F5) and follow the instructions showing in the terminal
 
+#### DeepLabCut
+
+Please follow the instructions [there](https://deeplabcut.github.io/DeepLabCut/docs/installation.html).
+
 #### Troubleshooting in case your installation failed
 
 1. Conda not recognized in your terminal:
@@ -72,7 +76,7 @@ conda install -c conda-forge opencv matplotlib numpy natsort scipy
         ```
     Then, in VSCode, select "Select interpreter path..." in "Python interpreter" (F1 with search function or ctrl + shift + p) enter enter the path given by your previous command `where python` or `which python` from the Anaconda Prompt.
 
-    - OR alternativly, try following [these instructions](https://stackoverflow.com/questions/64170551/visual-studio-code-vsc-not-able-to-recognize-conda-command)
+    - OR alternatively, try following [these instructions](https://stackoverflow.com/questions/64170551/visual-studio-code-vsc-not-able-to-recognize-conda-command)
     
     - OR contact your IT support.
 
