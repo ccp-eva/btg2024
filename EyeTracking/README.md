@@ -42,6 +42,7 @@ Now you should find a shortcut in your start menu called **Spyder(psychopy)**, j
 
 ## Files
 We will also make use of some files and stimuli stored in the Files folder.
+
 ------------------------------------------------
 <br>
 <a href="https://x.com/TommasoGhi">
