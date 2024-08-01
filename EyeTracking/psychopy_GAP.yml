@@ -1,0 +1,15 @@
+name: psychopy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - spyder
+  - seaborn
+  - pip
+  - pip:
+      - psychopy
+      - moviepy
+      - tobii_research
+      - I2MC
+
