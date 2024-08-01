@@ -1,4 +1,5 @@
-# Eye-tracking (DevStart)
+# Eye-tracking with Python (DevStart)
+Wednesday, August 7, 2024, 10:30 – 17:00 by Tommaso Ghilardi & Francesco Poli
 
 Hello hello!!! This page has been created to provide support and resources for the tutorial that will take place during the [Bridging the Technological Gap Workshop](https://www.eva.mpg.de/de/comparative-cultural-psychology/events/2024-btg2/). In particular in this folder we will cover the material and resources for the **eye-tracking** workshop!!
 
