@@ -46,13 +46,13 @@ pip install scikit-learn
 ```
 ### Outline of session
 #### MacaquePose Dataset and YOLOv8 training
-This part will have a look at the script convert_macpose_labels.py which converts the [MacaquePose dataset](https://www.pri.kyoto-u.ac.jp/datasets/macaquepose/index.html) into [YOLO format](https://docs.ultralytics.com/datasets/segment/) and splits it into train, test and validation sets.
-Further we will go through train_segmentation_model.py and train_poseestimation.py which showcase how to train a YOLO model on a dataset.
+This part will have a look at the script *__convert_macpose_labels.py__* which converts the [MacaquePose dataset](https://www.pri.kyoto-u.ac.jp/datasets/macaquepose/index.html) into [YOLO format](https://docs.ultralytics.com/datasets/segment/) and splits it into train, test and validation sets.
+Further we will go through *__train_segmentation_model.py__* and *__train_poseestimation.py__* which showcase how to train a YOLO model on a dataset.
 #### Segmenting and tracking animals in a video
-In this part we run the code track_macaque_video.py which will segment (find the contour) and track (align semgentations from previous frames) animals in a video using the trained YOLO models and save the output. We use segmenting_track_images.py to extract cropped images from the video (using the segmentation mask) according to their track number to help us create a dataset for identification of individuals.
+In this part we run the code *__track_macaque_video.py__* which will segment (find the contour) and track (align semgentations from previous frames) animals in a video using the trained YOLO models and save the output. We use *__segmenting_track_images.py__* to extract cropped images from the video (using the segmentation mask) according to their track number to help us create a dataset for identification of individuals.
 #### Training an identification network
-We will walk through the steps of training your own identification network based on the EfficientNetv2 architecture and using a model pretrained on the [ChimpACT dataset](https://shirleymaxx.github.io/ChimpACT/) published by [Ma et al. 2023](https://proceedings.neurips.cc/paper_files/paper/2023/file/57a95cd3898bf4912269848a01f53620-Paper-Datasets_and_Benchmarks.pdf) with the data extracted in the steps above. See identification_training.py
+We will walk through the steps of training your own identification network based on the EfficientNetv2 architecture and using a model pretrained on the [ChimpACT dataset](https://shirleymaxx.github.io/ChimpACT/) published by [Ma et al. 2023](https://proceedings.neurips.cc/paper_files/paper/2023/file/57a95cd3898bf4912269848a01f53620-Paper-Datasets_and_Benchmarks.pdf) with the data extracted in the steps above. See *__identification_training.py__*
 #### Pipeline segmenting, identifying and tracking macaques
-This step combines all the previously created networks in a single pipeline. With pipeline_predict_video.py we can feed in the video to segment and track the macaques. Each segment is cropped and passed to the identification network to predict animal identity as well as the pose estiamation model to predict keypoints. These results are displayed and saved in two formats.
+This step combines all the previously created networks in a single pipeline. With *__pipeline_predict_video.py__* we can feed in the video to segment and track the macaques. Each segment is cropped and passed to the identification network to predict animal identity as well as the pose estiamation model to predict keypoints. These results are displayed and saved in two formats.
 #### Social Network
-Depending on the time we can also look at social_network.py to show you one approach to creating a social network from the data collected.
+Depending on the time we can also look at *__social_network.py__* to show you one approach to creating a social network from the data collected.
