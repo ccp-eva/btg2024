@@ -49,7 +49,7 @@ pip install scikit-learn
 This part will have a look at the script convert_macpose_labels.py which converts the [MacaquePose dataset](https://www.pri.kyoto-u.ac.jp/datasets/macaquepose/index.html) into [YOLO format](https://docs.ultralytics.com/datasets/segment/) and splits it into train, test and validation sets.
 Further we will go through train_segmentation_model.py and train_poseestimation.py which showcase how to train a YOLO model on a dataset.
 #### Segmenting and tracking animals in a video
-In this part we run the code segmenting_track_images.py which will segment (find the contour) and track (align semgentations from previous frames). We use this code to extract cropped images (using the segmentation mask) according to their track number to help us create a dataset for identification of individuals.
+In this part we run the code track_macaque_video.py which will segment (find the contour) and track (align semgentations from previous frames) animals in a video using the trained YOLO models and save the output. We use segmenting_track_images.py to extract cropped images from the video (using the segmentation mask) according to their track number to help us create a dataset for identification of individuals.
 #### Training an identification network
 We will walk through the steps of training your own identification network based on the EfficientNetv2 architecture and using a model pretrained on the [ChimpACT dataset](https://shirleymaxx.github.io/ChimpACT/) published by [Ma et al. 2023](https://proceedings.neurips.cc/paper_files/paper/2023/file/57a95cd3898bf4912269848a01f53620-Paper-Datasets_and_Benchmarks.pdf) with the data extracted in the steps above. See identification_training.py
 #### Pipeline segmenting, identifying and tracking macaques
