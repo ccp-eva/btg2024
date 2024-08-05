@@ -12,7 +12,7 @@
 ## use triple quotes to comment multiple lines
 
 ## local VS global variables:
-## understand the differenece between local and global variables
+## understand the difference between local and global variables
 ## debug mode: use vs code debug mode to understand the concept or pdb
 
 ## types of variables: use type() function to check the type of variable your are working with
@@ -25,7 +25,7 @@
 
 ## create a file utils.py and then:
 ## 0. In Run and Debug, create a launch.json file and add the following configuration: "cwd": "${fileDirname}",
-## 1. write a function in utils called display_squarred_image, taking as input an image path.
+## 1. write a function in utils called display_squared_image, taking as input an image path.
 ## 2. the function should read the image,
 ## 3. if the image is square: display the image
 ## 4. if not: display along the longest dimension a squared version of the image. (slowly or at the user convenience)
