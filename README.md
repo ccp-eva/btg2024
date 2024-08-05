@@ -14,6 +14,10 @@ Technological breakthroughs create immense opportunities to revolutionize scient
 
 ## Hands-on
 
+### Data on Nextcloud
+
+[Nextcloud repository](https://share.eva.mpg.de/index.php/s/gRRHDB6jGSHTytd) - password accessible on-site.
+
 ### Installation
 
 Please install Anaconda, VSCode and DeepLabCut in advance.
