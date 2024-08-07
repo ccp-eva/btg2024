@@ -155,7 +155,7 @@ for trial in Trials:
     win.flip()    # we re-flip at the end to clean the window
     clock = core.Clock()
     if Eyetracker is not None:
-        write_buffer_to_file(gaze_data_buffer, 'DATA\\RAW\\'+ Sub +'.csv')
+        write_buffer_to_file(gaze_data_buffer, os.path.join('DATA','RAW','recording.csv')
     while clock.getTime() < 1:
         pass
     
