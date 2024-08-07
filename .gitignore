@@ -8,3 +8,5 @@ Bio-TIP/**/
 !Bio-TIP/data/
 # Except the zip files in the data folder
 Bio-TIP/data/*.zip
+# Ignore the i2cm output
+EyeTracking/Files/DATA/i2cm_output/
