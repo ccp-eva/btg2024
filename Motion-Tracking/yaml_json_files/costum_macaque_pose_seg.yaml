@@ -1,7 +1,7 @@
 #automatically created config file from converting macaquepose_v1
-train: C:\Users\tjand\Documents\BGT2_workshop\BGT2_codes_push\datasets/macaque_pose/segmentation/train/ # train root directory
-test: C:/Users/tjand/Documents/BGT2_workshop/BGT2_codes_push/datasets/macaque_pose/segmentation/test/ #test root directory
-val: C:/Users/tjand//Documents/BGT2_workshop/BGT2_codes_push/datasets/macaque_pose/segmentation/valid/ #validation root directory
+train: ./datasets/macaque_pose/segmentation/train/ # train root directory
+test: ./datasets/macaque_pose/segmentation/test/ #test root directory
+val: ./datasets/macaque_pose/segmentation/valid/ #validation root directory
 
 # number of classes
 nc: 1 # class names

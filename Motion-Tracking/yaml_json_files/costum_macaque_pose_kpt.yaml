@@ -1,7 +1,7 @@
 #automatically created config file from converting macaquepose_v1
-train: C:\Users\tjand\Documents\BGT2_workshop\BGT2_codes_push/datasets/macaque_pose/pose/train/  # train images (relative to 'path')
-val: C:\Users\tjand\Documents\BGT2_workshop\BGT2_codes_push/datasets/macaque_pose/pose/valid/  # val images (relative to 'path')
-test: C:\Users\tjand\Documents\BGT2_workshop\BGT2_codes_push/datasets/macaque_pose/pose/test/  # test images (relative to 'path')
+train: ./datasets/macaque_pose/pose/train/  # train images (relative to 'path')
+val: ./datasets/macaque_pose/pose/valid/  # val images (relative to 'path')
+test: ./datasets/macaque_pose/pose/test/  # test images (relative to 'path')
 
 # Keypoints
 kpt_shape: [17, 3]  # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)]]
