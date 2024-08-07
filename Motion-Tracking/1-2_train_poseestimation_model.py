@@ -5,7 +5,7 @@ model = YOLO("yolov8l-pose.pt")  # load a pretrained model (recommended for trai
 
 if __name__ == '__main__':
     # Train the model
-    results = model.train(data="costum_macaque_pose_kpt.yaml", epochs=100, patience=10, batch=0.8, plots=True)
+    results = model.train(data="costum_macaque_pose_kpt.yaml", epochs=10, plots=True)
     # all training parameter settings listed: https://docs.ultralytics.com/modes/train/#train-settings
     # training tips: https://docs.ultralytics.com/guides/model-training-tips/
     # guide to parameter tuning: https://docs.ultralytics.com/guides/hyperparameter-tuning/

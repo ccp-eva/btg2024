@@ -16,14 +16,14 @@ import itertools
 
 draw_labeled_images = True  # will create a directory with labelled images from the annotations
 
-df = pd.read_csv("./data/macaquepose_v1/v1/annotations.csv")  # path to annotations file (MacaquePose)
-path_images = "./data/macaquepose_v1/v1/images/"  # path to image directory (MacaquePose)
+df = pd.read_csv("./datasets/orig_macaquepose/annotations.csv")  # read in annotations file (MacaquePose)
+path_images = "./datasets/orig_macaquepose/images/"  # path to image directory (MacaquePose)
 
-path_out_labels = "./data/macaquepose_v1/v1/labels/"  # path where to create directory with labels
-path_out_images = "./data/macaquepose_v1/v1/labeled_images/"  # path where to create directory with labelled images
+path_out_labels = "./datasets/orig_macaquepose/labels/"  # path where to create directory with labels
+path_out_images = "./datasets/orig_macaquepose/labeled_images/"  # path where to create directory with labelled images
 
 split_dataset = True  # will create directories and yaml files in format for training and testing with yolo
-path_2_dataset = "./macaque_pose/"  # path where to create dataset
+path_2_dataset = "./datasets/macaque_pose/"  # path where to create dataset
 
 # create directories or raise error if directories already exist
 if not os.path.exists(path_out_labels):
@@ -61,6 +61,7 @@ def norm_01(val):
 
 
 # read in all possible keypoints
+print(set([kd['name'] for r in df.keypoinbts for l in json.loads(r) for kd in l]))
 all_keypoint_names = set([kd['name'] for r in df.keypoinbts for l in json.loads(r) for kd in l])
 keypoint_num_dict = {n: i for i, n in enumerate(all_keypoint_names)}
 
@@ -161,24 +162,23 @@ if split_dataset:
         for fname in set:
             if os.path.exists(path_images + fname + ".jpg"):
                 shutil.copy(path_images + fname + ".jpg",
-                            "./macaque_pose/segmentation/" + set_type_path + "images/" + fname + ".jpg")
+                            path_2_dataset + "segmentation/" + set_type_path + "images/" + fname + ".jpg")
                 shutil.copy(path_images + fname + ".jpg",
-                            "./macaque_pose/pose/" + set_type_path + "images/" + fname + ".jpg")
+                            path_2_dataset + "pose/" + set_type_path + "images/" + fname + ".jpg")
             else:
                 print(f"Image - {fname} not found!")
 
             if os.path.exists(path_out_labels + "labels_seg/" + fname + ".txt"):
                 shutil.copy(path_out_labels + "labels_seg/" + fname + ".txt",
-                            "./macaque_pose/segmentation/" + set_type_path + "labels/" + fname + ".txt")
+                            path_2_dataset + "segmentation/" + set_type_path + "labels/" + fname + ".txt")
             else:
                 print(f"Segmentation label - {fname} not found!")
 
             if os.path.exists(path_out_labels + "labels_kpt/" + fname + ".txt"):
                 shutil.copy(path_out_labels + "labels_kpt/" + fname + ".txt",
-                            "./macaque_pose/pose/" + set_type_path + "labels/" + fname + ".txt")
+                            path_2_dataset + "pose/" + set_type_path + "labels/" + fname + ".txt")
             else:
                 print(f"Pose label - {fname} not found!")
-
 
     copy_split(train_dataset, "train/")
     copy_split(test_dataset, "test/")
@@ -186,10 +186,9 @@ if split_dataset:
 
     # automate config file
     conf_kpt_ls = ["#automatically created config file from converting macaquepose_v1\n",
-                   "path: ./macaque_pose/pose/  # dataset root dir\n",
-                   "train: ./train/  # train images (relative to 'path')\n",
-                   "val: ./valid/  # val images (relative to 'path')\n",
-                   "test: ./test/  # test images (relative to 'path')\n",
+                   "train: ./macaque_pose/pose/train/  # train images (relative to 'path')\n",
+                   "val: ./macaque_pose/pose/valid/  # val images (relative to 'path')\n",
+                   "test: ./macaque_pose/pose/test/  # test images (relative to 'path')\n",
                    "\n",
                    "# Keypoints\n",
 
@@ -197,9 +196,9 @@ if split_dataset:
                    "\n",
                    "# Classes\n",
                    "names:\n",
-                   "0: macaque\n"]
+                   " 0: macaque\n"]
 
-    with open(path_2_dataset + "costum_macaque_pose_kpt.yaml", 'w') as f:
+    with open("./costum_macaque_pose_kpt.yaml", 'w') as f:
         for l in conf_kpt_ls:
             f.write(l)
 
@@ -214,6 +213,6 @@ if split_dataset:
                    "# class names\n",
                    "names: ['body']\n"]
 
-    with open(path_2_dataset + "costum_macaque_pose_seg.yaml", 'w') as f:
+    with open("./costum_macaque_pose_seg.yaml", 'w') as f:
         for l in conf_seg_ls:
             f.write(l)
