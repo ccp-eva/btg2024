@@ -1,1 +1,129 @@
-ff04807870acb763937892cff68f7246280dace80c46c94aedcd92663521e9b926815854bda3c0399526bb0d7eae06fecb1e6cc041cdd541fb40d36f9dd491c91a7f2116b08ce153553c4481ac5b999d3b6646fc0e10b3a11fc52550c20db5897a9ba259fc4e496809a2b6f09c9cef475fc0dc7bf00ab8117ec6a594de35f5f5964210dc77ee3b61725390bc48562501590df9a3a6e0b6219c6a5fee5470ee842824a6dd22ea77d7c16940fb06e6611f47acf005e9e4834ac2290c5ee80d4806281706657b6a8d5b21cdde15f8b377b00d49cc0999a0ee732cbae9b76173d20ac1cc1342ef036aa280a0ff01bda35cf18b45d4b8df68be72e819550441bb3700d482dba5caf58d9398c156e3e9bf0c1d41fdc4667ba335938cbca51f341a618c5f0bd4def63b40ceaf4f84d4fbb38444cbf6c0486ced5f17392fc419d96dbed78859f0ec81aec8574e14b23ca081086d6563ed858d6c4fab23a92cce13497347270f601d2492c7de86787a48c54e6129ec96db27788c77a49bdebac07db75b0b1c7930f8ade0def009fbcd33c2ee6b8b4c48efc54f9795295fd782fd5875e1d1441d61b23483e5f84ddc4d755a27b9b4e38acae500ec27bf7facce43b58b2c3fce748e2eef41be85ed76e64950b53d90c086becd82cf27b2e5e51d0b8ea83a359f6d8e595230980c8a22bf617ac90753b9870318580d1790f23049e7e9af614e56ee63ebb18cb04fccdf339709d4f456c80a09509b2c69c5f021f3054208a000389a953fbe9137a9e9c0f7a220fbb96ff1eda8b94829b260dbb61013a7d1ed80061472f426053f1cc07d0570aa89f247158691994ff6cf25d6fdfe47740910841a77b28c49d96621946385d60ed50d985a4d2377786cdecc04d158d8ba68d83b4e0d1dd2fe02f8f40b50196884d9afccccbdf20bbcd54205025508197b29021fe5b22b19e67db210b3624b8d1749a449fd9069d49ef5a6a13e667f749cc6ddd4a2d779eebdd5cc03611bb15ca148b548a15aa2bab2b4a773833105695d6f79bbc3553fa20cc6ecce15022dcc3cb249258a8c0b6c7c4a1815b49faf78178fe2197758302b5850494b6355686dbc0d6439c312cf81007aa2171aee9bb1653f8eb36abc287dd63c3f2d783266bc9a32530c3ac931e1549a5303b611addc36fcaae09268de53bb59477b8a55acecfd17e3b892e1e819c95d512b6d361e96db83eb5921dbdb8f868a969c46a54d62fb607a36e7f6dcf953d1163e47d25e6c0c79b2ce348190c9bd08c3bece7ce249ea10b049398b1751542862e63f9c06eb90e05f3ea4123bf2adde2dda3fb36aae56b3bad35b05eb54224bf450278a3e5701ef2d3aa00099f2ec2b717bcb3c3928ea8794ad53f06e6cc87a8016281b51833b3a2249cc7c547a711ecc44ea081937cacf6349e1b91d90f1bfa0a0753190c46205fa6e1870ddd50e1cf1aefc0e44a23f8aaf466d072d4bc24b72c5ef4c65111397b2bf10e87805bbc539416b68fdab964bba0a103d18cb906e4cfe94af344689335b8ee1482de27801213ed3ac87825716d3d29b3d82da3ed682bbdcbe6fdc970889921924a8a5a45d710c15cb1f8f3f46e0808143876eb934bdc78fdfd1b8bf4922f7a9296fe9e1bcdeddcc0df426ea53a04f454113daa15a1794bd0096956089e1e036855628cfc2b781b5647fa1444ba26681bde820acb18cc929408c1edb52d19567ff3b690d567974e2a36f8f0981d633327e5287ba854216351b56aff428d0bf9a8b7b086a5a1277ce7b18b11cd173afdc6016b5e40c0f6b1dbb97bfdaa1191c758f4b41defe0636a05b8b478c2351af531334550c402bca08bfc16051bbb542f179bab5343a00ad83eb44ef3231d0045ce24a6ad5a728f45a72eb8310d30d93b8182a7461da1441c5e51b36b8282be1f676183dd383951e68ad01fd7b6e9c2fc3c4b71374d1e09d27dea12ef7d69bc04d4bf7a124b85dbcf75b7061a7a3a4147e29da0e66fb2a659ed7b5650d7fc797b1a9e4f53df440dc7ceaa9c2df828cbc611a67c4755e9208a8c9caf811ac0c1f92ed8e01cfea42f6f33642227dc2add3432eeb677c8fba8b942ec6e396d6c1dbf03ff4732c6fc4135ac367831c2c5ceafcdfb33bd81c23632e0905de57187043ac62a2400a1577707c1e1b29883f387589ae29f08202099b182ffb3e61c80dab9fca7dc5187ad4f12406e336240a9f1c4e2523a903af69e1faa216f4d4b74df8a42e37cd74372020853f556e8496b199b39c80287a340357e3f73dd83fb65071d9b1a5381c9e55cbba0aa280fec5e969b473416755b99bd5fdd4bc5684267d5ec159aa8233fa42bec2cbe7b0f9c3c7a757a606b46919dec891093b35db965f86a0c82357363c988d6172b4e3e80b638552c7f8265f1a7f87a23aa654b246edbab2b512418f6119ccd0c1bea187b26777a43aa41c195e0c190937543ffc67a53d62b0d213a7ad3c1b60cea2e6443ba4dd9c85dc4fe46dbb11d0cc75a3c102afc8d7d5816204ce5119e504cb1994de8f3d2346a076931ac7b2a161785275d1b3371042d2bbf500b615e3395edbac0bde99f71695aed1f7c4f3d864eee1561c689145318286e15a3d820c4289a7d3180be2a1683aef4dccc9d3d73d21e4977ab533a3cb4e8800049b0d5f808f7e7653573d9216beb6820c2e88d91f7717b5db251e882ab75670d4d84547e1172c7f154d8d5e9185907edecde230a85544e3b1411dd37e08049c26dfa9c3ec7d7e13c61cf10a3e796bfafa2926104e282851b870516d62bbc5a9c2fec8a3ed080ae8db1174141265da478049f0dd0293e664ced99e146b0ad1d01b020b0c6afd4566f43c86b28663df37ba240ba276926f78dcd1ac1e73a223255e88362f6feac0a60ad84c16b454f54716c676c388ab88435d576facd568ea27f23e1d2ec6c33ac24c9ce68520d08504b4b3bc770d681954b6f6489ff2439364212580ec90fed15462850172093e8bee647746a570f376f9620c0dcab0982c8b40cda1765523b0e10141be14bc96faf1fcada38d96ba3813000d0057e2b4ab7597025cb484a30bc10f5596bc88f3e50a9706cca7a342792f9ca9d5e1794531d8904ef70eec2348621b095b8868ca0176a3c7bae8f391af8807cccf462707c51b3b34052e3e2240e1cc36727310be7c2c85c91e341a7bc21aef4ec68157d4c3bce9027086f9c41ce175080da860af845334a483f939894a1d45eb867f91789836744425b53c231dd94dd9aa37551c09f45f0b31d0db2f8e38642234812034527598c4a8661093c91b3fc57e965e4352dd8bd5fcf6c966ed5303a5cb1685a6302c2dde5d04b5f68aefb828bdc9e7e5da32fd6a91c985b6e1283d34ea93bbaf8d0b25cd49c1b536f572055bfb31a3fb7c7e167cafeaa8ced0868499483303d113677a85b01909452f98842cb67263e969abb2e301af6e174bfc8b05ef05015fa33d0036bf342383092a07a5309e9ad97e4062eb196904fb9a2e64d94397ff3ed100f7a6177c2dea230e3912470b0e238e29a2b0e9b8260ff645dbec87428df11be9630a933a52024afde1754f64b0ab705868dc0288fc79862aa2d156f415dfc7358e6b58d7c05329b021a162a65bb2d498b4500054e144c92f92aa2227231de6642bd508b74553e252361f120860fdaaf5bf2ede0927d1aaa6f0f4bb938d49667f64560684dd65c7ac385321523c00eecd759cba37f7466360bfd94f9884b74af1aa36d59592da40f338502d0faacd283ecce663d2741d3e5ecd39142da92f1d8d7fd1d4e45e9179f76355aadd6bca8c2f39d33cebfe875941440e783e96cbbb092370b2856e98ef98809e921adc882b41ab488c027ad5fd87f520cc83ed1a33c230f60266f33901a40d6704d97ac69481bef73147f61a962005cac9df61f9db8a77365015cf664d3899a08896a0e131abf6927a690cea60840134345aa2e4109552f7d8c6cb6ffbf512a2da5793986d3f3ffd8c38b9873ff96eff0e57a10b939c33aef6932c77da36ee2daaa7978e4fdbed25c207a94e4aa29434e7b0a159069de6db7635bf85c52c78231d501f68f6b17aa08436aecf581674090e666f1c1710778cb47480cd6b2d407c45fb38aca3f170dbafd8ebf3069eacb921356f2f4ddd19966d1095ae81c5d3a5496a230c1e0c794b8bf989a90ade8ba4ce731529a8313729b3d1c067798a6499eb0157f3d4b7cf223f1940a4c613313e71ab9f049b8a6b2f1d86c62cb68592073ae1c45641c26b67a56b4054f1bfa9499b26721fb73e88c2021a8796ebea998cab08cc7e0af0f9e14d75b4c9a7d49956c3c077d93ee244d47ec5a9fd29d58dc1368f0fb8821007c6174abee8990f413ac999da81357b1be52c256384e256ada0ad5e54a3d5ea305cd1b1758331f0b805f5169bc3e5bb8002bd9b820b29d1900f97375cf5293541c60bc8df69cdbd3208407c89e8cf7ea1a63e818b0de99e983bdc2da5b8113d434878e8a0cd2617e4e3bbe952f5dbb062f25834fa86cf946af8ae3fad779b50ac1d97a30c451daac7b6603d0edb18698437ed8b407e2b8565236142bed07fb5cdeb4c5219174707615b4135fffdc7661ce762871e24b7a57c97e556f2badb9b00ed17f203912253e68ef112824dee361616f0a23c0799482b5159e3ef8cc4adb587e25995a1b9219efe975ecd4c0c7ce78b0312aed6187a6e30362e63bf4cd430e045a6b5fa1d3030c4db3314503af2012cec66a3437c09624bc7c615e40a899c25724c190b495c73b61498cede6b2a2352300a211174d0e5adc8621b1dcc2da93dea2b113b6557337b46f280109c7ebfaa51780579ab6c7c2c21f52b67399b0dd4670480462f3cef4d94ba8fa2f371a0855924da0cbb420c75a911ddcbb9d44b4f8c0fc56b39714463cee06d4b062640c97689eafeb0907467ec1419107c21441d68ef36be2abcfcc54cf76cb278aeeff6136330af59c1e7da65c0de7bb77f3be9acc7bf7e692df99eda225f5c9668ef5f27917ccd20c814251a50fdc5b89740a1dc575abbe5657a1208a4062fcb182e6ab08037ed985a888d1b8d6e14b52fd909216e97a7438b9d021e888615e8bef0e4a4244f90f7af1c53ea771e29be7a30fb71c7fbdcacf291688f103b6b004c7e451777f5a6f091453d0520e2100ef67e605449e7100cc1e06b50254f09dabb10e2e57d5d14ba35fabd6f6e93a0771855e056b9575a49ba9d4175726d7b2a78d4f19796f5c4f9553de62c33131722d3187120d4cd2a15950e45712df73cf3b6a932821680d7d57b0aa0fe386359d28d8ef730a2003a893c96a06235fbeba47b941c50dbf0bfa4c6353671f29a1ba7dff4bff57b38a96991fd25be6354feac55a6033c7f0e4aa0e613ce23858aa0e429881f539e23911cac62553e1384245148f89aef584fb9bddce5411cf81d8a637cf7c8390816358d1b8ea46ad006e31fdd829a86deb58460c9aaf7ca87c37d83bc8978a55c59ac6579ca31c78fdc604f3855a9f7c89491ea38a0e9271648cc4e5971ac556223e0f5d3357a7a2c2e0168c46d75276203fef03d826e077aefffb8338f943546ae2737b9c5758a451ae113cc6bcb080261c2a49772884569677f179be6868cb8b5565edbd8227648aca87ce00e9109c7c45e09b1dfa35a8bf4d410d87efc9d8194a4e125532f55fc88ba3c20ef94809066a6045c19f5147e25bbd52c4eaaf8604ae7031e99a1b08f73dd7d627465210a9300c78b8a860903a53bdb12a80621245e33a28dbb922d11d1b7f2c3874098fd7748d2c582f27b9103f62785612b972af704c31628ef8dd2ea1da6811ace038551e1f1513d1ce9e3a75a6aeca2c37089d30af59447432ae9cd9e1eb74dd7a7bd1c53e07dcaa91ee7deeb978c1f4fbafbec8d22509258db6f23f989a0079f212e636d594f029fc19d92885b24ec2d68f61fe4923115361809118072ab22edd908e9e53666eec1fe27ef2adad311917e41adb2f0700ae43b78c26d9391e5b2b6834de437a3a3181bd3fd0c0147e96a49253bcefb5de753d9
+from utils import *
+
+def ti_to_image(sourceframe, minValue=25, maxValue=38):
+    """
+    Apply thermal calibration to a frame and scale the values between 0 and 255 uint8 type for image processing.
+    The inverse option allows invertion of the scale.
+    """
+    # Apply calibration
+    outputframe = (sourceframe - minValue)/(maxValue - minValue)
+    # Scale to 0-255
+    outputframe = outputframe*255
+    # Clip values
+    outputframe[outputframe < 0] = 0
+    outputframe[outputframe > 255] = 255
+    # Convert to uint8
+    outputframe = np.array(outputframe, dtype='uint8')
+    outputframe = cv2.applyColorMap(outputframe, cv2.COLORMAP_JET)
+    colormap_with_legend = generate_colormap_with_legend(minValue, maxValue, width=outputframe.shape[1]//15, height=outputframe.shape[0], fontsize=15)
+    return np.concatenate((outputframe, colormap_with_legend), axis=1)
+
+def main():
+    # Load data
+    ti_zip_file = os.path.join("data","1-example.zip")
+    fps = 30
+    save_folder = os.path.join("data_npy",os.path.basename(ti_zip_file).split('.')[0])
+    # Create save folder if it does not exist
+    os.makedirs(save_folder, exist_ok=True)
+    np_files = ti_extraction(ti_zip_file, save_folder)
+
+    ## TODO:
+    ## Loop over the np_files and convert each to an image using np.load and ti_to_image functions
+    ## Display the image using cv2.imshow
+    ## Select a ROI using cv2.selectROI
+    ## Track the min temperature in the ROI using np.min
+    ## Plot the min temperatures using matplotlib
+    ## Calculate the frequency from the min temperatures
+    ## Plot the temperature with peaks and the frequency
+    ## Improve the frequency calculation using a Gaussian filter and plot the results
+
+    # Variable to store min temperatures
+    min_temps = []
+
+    # Loop over the np_files
+    for idx, np_file in enumerate(np_files):
+        # Load thermal image
+        ti_image = np.load(np_file)
+
+        # Convert to image
+        ti_vis = ti_to_image(ti_image)
+        
+        # First loop we select a ROI
+        if idx == 0:
+            roi = cv2.selectROI('Thermal Image', ti_vis)
+            cv2.destroyAllWindows()
+            print('ROI selected: ', roi)
+        
+        # Draw ROI
+        cv2.rectangle(ti_vis, (roi[0], roi[1]), (roi[0]+roi[2], roi[1]+roi[3]), (255,255,255), 2)
+
+        # Draw min temperature in ROI
+        min_temp = np.min(ti_image[roi[1]:roi[1]+roi[3], roi[0]:roi[0]+roi[2]])
+        cv2.putText(ti_vis, 'Min Temp: %.2f' % (min_temp), (roi[0], roi[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 2)
+
+
+        # Track min temperature in ROI
+        min_temps.append(min_temp)
+
+        # Display image with ROI using correct frame rate
+        # if idx > 0:
+        #     if time.time() - show_time < 1/fps:
+        #         time.sleep(1/fps - (time.time() - show_time))
+        # show_time = time.time()
+        cv2.imshow('Thermal Image', ti_vis)
+        cv2.waitKey(10)
+
+        # Print progress
+        if idx+1 % 100 == 0:
+            print('Progress: ', idx+1, '/', len(np_files))
+    
+    # Close all windows
+    cv2.destroyAllWindows()
+
+    # # Convert min_temps to numpy array
+    # min_temps = np.array(min_temps)
+
+    # # Plot min temperatures
+    # plt.plot(min_temps)
+    # plt.xlabel('Frame')
+    # plt.ylabel('Min Temperature')
+    # plt.title('Min Temperature in ROI')
+    # plt.show()
+    # plt.close()
+
+    # Apply a Gaussian filter to the min temperatures
+    min_temps_gauss = gaussian_filter(min_temps, sigma=fps/3)
+    
+    # Calculate the frequency from the min temperatures
+    bpm, peaks = get_bpm_from_peaks(min_temps_gauss, fps=30, freq_min=5, freq_max=60, height=0)
+
+    # Create subplots
+    # First subplot is temperature before gaussian filtering
+    fig, axs = plt.subplots(3)
+    axs[0].plot(min_temps)
+    axs[0].set_xlabel('Frame')
+    axs[0].set_ylabel('Min Temperature')
+    axs[0].set_title('Min Temperature in ROI')
+
+    # Second subplot is temperature after gaussian filtering with peaks
+    axs[1].plot(min_temps_gauss)
+    axs[1].plot(peaks, min_temps_gauss[peaks], "x")
+    axs[1].set_xlabel('Frame')
+    axs[1].set_ylabel('Min Temperature')
+    axs[1].set_title('Min Temperature in ROI (Gaussian Filtered)')
+
+    # Third subplot is the frequency
+    axs[2].plot(bpm)
+    axs[2].set_xlabel('Frame')
+    axs[2].set_ylabel('BPM')
+    axs[2].set_title('Breath Rate')
+
+    # Tight layout
+    plt.tight_layout()
+
+    plt.show()
+    plt.close()
+
+
+if __name__ == "__main__":
+    main()
