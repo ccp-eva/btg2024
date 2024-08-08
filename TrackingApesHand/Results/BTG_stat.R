@@ -20,7 +20,3 @@ ggplot(df_anticipation, aes(x=correct_pos, y=change_bin, color = correct_pos))+
   theme(legend.position ="none")+
   facet_wrap(~subject,nrow=1)+
   labs(x= "Location",y="Proportion of direction change during the 2nd delay")
-
-
-model = glm(change_bin~correct_pos, df_anticipation, family = "binomial")
-summary(model)
