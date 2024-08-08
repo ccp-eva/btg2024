@@ -4,6 +4,8 @@ from tkinter import filedialog
 import pandas as pd
 import pathlib
 
+___FILL_THE_GAP___ = "FILL"
+
 #### Basic functions
 def getValue(fileID,variable): # Get a value (variable) from a trajectory file (fileID) using PagesJaunes 
     return pj[pj["traj"]==fileID][variable].to_list()[0] 
@@ -77,12 +79,8 @@ def direction_change(x,y,file,angle_threshold=90):
     
     #  Center coordinates of the six locations (x,y)
     locations = {
-        "loc_1": (0,0),
-        "loc_2": (-100,0),
-        "loc_3": (200,0),
-        "loc_4": (0,100),
-        "loc_5": (100,100),
-        "loc_6": (200,100),    
+        "loc_1": (0,0), "loc_2": (-100,0), "loc_3": (200,0),
+        "loc_4": (0,100), "loc_5": (100,100), "loc_6": (200,100),    
     }
 
     def current_stage(frame): 
@@ -110,7 +108,7 @@ def direction_change(x,y,file,angle_threshold=90):
         angle_short = angle_between(v2,v3)
         angle_wide = angle_between(v1,v3)
         
-        if (angle_short < angle_threshold) or (angle_wide < angle_threshold):
+        if ___FILL_THE_GAP___:
             direction_change = True
         else : 
             direction_change = False
@@ -135,7 +133,6 @@ files = filedialog.askopenfilenames() # select trajectories h5
 res_list = []
 fps = 25
 
-___FILL_THE_GAP___ = "FILL"
 
 for file in files:
         file = file.split("/")[-1]
